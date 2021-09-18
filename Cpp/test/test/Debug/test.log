@@ -1,0 +1,19 @@
+﻿  test.cpp
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(11,48): error C2661: 'std::queue<char,std::deque<char,std::allocator<char>>>::queue': no overloaded function takes 2 arguments
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(12,17): error C2672: 'begin': no matching overloaded function found
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1916): message : see declaration of 'std::begin'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): message : With the following template arguments:
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): message : '_Container=std::queue<char,std::deque<char,std::allocator<char>>>'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'std::queue<char,std::deque<char,std::allocator<char>>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(12,17): error C2672: 'end': no matching overloaded function found
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1926): message : see declaration of 'std::end'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): message : With the following template arguments:
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): message : '_Container=std::queue<char,std::deque<char,std::allocator<char>>>'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'std::queue<char,std::deque<char,std::allocator<char>>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(13,2): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\niran\Documents\Code\Cpp\test\test\test.cpp(12,23): error C2100: illegal indirection
